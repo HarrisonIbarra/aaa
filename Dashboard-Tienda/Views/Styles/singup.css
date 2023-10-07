@@ -1,0 +1,86 @@
+body{
+    background-image: url(./Views/imagenes/singup.jpg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 900px;
+    margin-top: rem;
+    margin-left: rem !important;
+    width: 70rem !important;
+    height: 100rem !important;
+
+}
+.fondo{
+    width: 33rem !important;
+    height: 10rem !important;  
+    margin-top: 5rem;  
+}
+
+.card{
+    margin-top: 0.3rem;
+    margin-bottom: -34%;
+    margin-left: 12rem !important;
+    background-color: rgba(255, 255, 255, 0.699) !important;
+    border-radius: 10px !important;
+}
+h1{
+    margin-top: 1.2rem !important;
+    margin-left:  1.3rem;
+    font-size: 2rem !important;
+    color: rgb(58, 2, 2) !important;
+}
+.card-content{
+    display: grid !important;
+    grid-template-columns: 200px 200px !important;
+    margin-top: 1rem;
+    text-align: left ;
+    margin-left: 30px;
+    font-size: 1.rem;
+    width: 19rem !important;
+    height: 19rem !important ;
+}
+
+input{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem !important;
+}
+label{
+    color: black !important;
+}
+button{
+    margin-top: 1rem !important;
+    background-color: red;
+    width: 10rem !important;
+    height: 2rem !important;
+    color: white;
+    border-radius: 5px !important;
+    margin-left: 3rem !important;
+    cursor: pointer; 
+    border: none;
+}
+button:hover{
+    background-color: black;
+    color: white;
+} 
+
+select{
+    font-size: 1rem !important;
+    border-radius: 5px;
+    width: 12rem ;
+    height: 1.7rem;
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+    font-size: 1.1rem;
+    margin-bottom: 2rem !important;
+
+}
+a:hover{
+    text-decoration: underline !important;
+    color: blue !important;
+}

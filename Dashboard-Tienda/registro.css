@@ -1,0 +1,159 @@
+.body{
+    background: url('/Views/imagenes/Ducati_Panigale_V2.jpg');
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 100%;  /* Asegura que la imagen no sea más grande que su contenedor */
+    height: 100vh;  /* Mantiene la relación de aspecto original de la imagen */
+    max-height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center; /* Centra horizontal y verticalmente */
+    align-items: center;
+    text-align: center;
+}
+
+.container-fluid{
+    max-width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+.columnaIzquierda {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Centra horizontal y verticalmente */
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 !important;
+}
+.logo {
+    width: 100%;
+    max-width: 100%;  /* Asegura que la imagen no sea más grande que su contenedor */
+    height: 100vh;  /* Mantiene la relación de aspecto original de la imagen */
+    max-height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center; /* Centra horizontal y verticalmente */
+    align-items: center;
+    text-align: center;
+}
+
+.columnaDerecha{
+    /* background-image: url('/Views/imagenes/fondoRojo.jpg'); */
+    /* background-color: rgba(0, 0, 0, 0.863); */
+    width: 100%;
+    max-width: 100%;  /* Asegura que la imagen no sea más grande que su contenedor */
+    height: 100vh;  /* Mantiene la relación de aspecto original de la imagen */
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center; /* Centra horizontal y verticalmente */
+    align-items: center;
+    text-align: center;
+}
+form{
+    margin: 1% 20% 2% 20% ;   /* centrar formulario */
+
+}
+.card{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.482);
+    border-radius: 5px;
+    margin: 0rem;
+    opacity: 84%;
+}
+.card-head{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.logo-head{
+    width: 25%;
+    height: 25%;
+}
+.card-body{
+    display: flex; /* Agregar display flex */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column; /* Centrar verticalmente */
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0% 8% 0% 8% ;   /* centrar formulario */
+}
+.row{
+    flex-direction: row;
+}
+
+.contenedorInput{
+    padding: 1.2rem 0 2rem 0;
+    margin-right: 0rem;
+}
+.input {
+    color: rgb(0, 0, 0) !important;
+    border: none !important; /* Elimina los bordes existentes */
+    border-bottom: 1px solid #070707 !important; /* Agrega un borde inferior gris claro */
+    background: transparent !important; /* Fondo transparente para eliminar cualquier fondo predeterminado */
+    border-radius: 0 !important; /* Elimina cualquier radio de borde existente */
+    padding: 0 !important; /* Elimina el espacio de relleno predeterminado */
+    box-shadow: none !important; /* Elimina cualquier sombra predeterminada */
+    margin: 0 !important; /* Elimina cualquier margen predeterminado */
+}
+
+/* Estilo para el borde inferior cuando se enfoca el campo de entrada */
+.input:focus {
+    border-color: #ff2200 !important; /* Cambia el color del borde inferior al enfocar */
+    
+    
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.575) !important;
+}
+.select{
+    background-color: rgba(255, 255, 255, 0.807);
+}
+
+.btn{
+    margin: 1rem 0 2rem 0;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.btn-registro{
+    font-weight: 600;
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgba(120, 120, 120);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.btn-registro:hover{
+    background-color: rgba(255, 30, 30, 0.850);
+    color: rgb(0, 0, 0);
+}
+
+.enlaces{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    grid-template-columns: 2, 1fr;
+    margin: 2rem 0 2rem 0rem;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
